@@ -1,1 +1,2 @@
-# How_to_Python_in_HPC
+# How to set up conda and python environment
+setup.sh
