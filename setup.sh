@@ -14,3 +14,6 @@ conda install <my_package>
 
 #check python version
 which python
+
+#deactivate my environment
+conda deactivate
