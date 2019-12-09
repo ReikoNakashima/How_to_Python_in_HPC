@@ -1,4 +1,4 @@
-# How to set up conda and python environment
+# How to activate your own conda environment
 
 ```
 module load eb/2019
