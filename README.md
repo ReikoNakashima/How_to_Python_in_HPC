@@ -1,4 +1,33 @@
-# How to activate your own conda environment
+# How to set up virtual env
+Load appropriate module. For example, on Delta, I loaded
+```
+module load medsci/2020.3 conda/nanopore/1.0
+```
+Check the versions.
+```
+$ which python
+/gpfs/apps/medsci/stacks/3/condaenv/nanopore/1.0/conda/bin/python
+
+$ python --version
+Python 3.6.10 :: Anaconda, Inc.
+```
+Create an environment, named .venv, in the current directory.
+```
+python -m venv .venv
+```
+
+Activate it.
+```
+source .venv/bin/activate
+```
+
+Install a package.
+```
+python -m pip install --ignore-installed pandas
+```
+
+
+# How to activate your own conda environment (Durham HPC)
 
 ```
 module load eb/2019
