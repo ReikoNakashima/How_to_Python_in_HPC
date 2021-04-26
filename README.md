@@ -26,6 +26,14 @@ Install a package.
 python -m pip install --ignore-installed pandas
 ```
 
+Then, also install Jupyter kernel
+```
+pip install ipykernel
+python -m ipykernel install --user --name=.venv
+```
+Now, you can choose your kernel, .venv, as a Jupyter kernel.
+
+
 
 # How to activate your own conda environment (Durham HPC)
 
