@@ -16,7 +16,7 @@ Create an environment, named .venv, in the current directory.
 python -m venv .venv
 ```
 
-Activate it.
+Activate it. For example,
 ```
 source /gpfs/workspace/projects/pharmsciARD_ngs/tools/.venv/bin/activate
 ```
