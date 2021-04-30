@@ -18,7 +18,7 @@ python -m venv .venv
 
 Activate it.
 ```
-source .venv/bin/activate
+source /gpfs/workspace/projects/pharmsciARD_ngs/tools/.venv/bin/activate
 ```
 
 Install a package.
