@@ -34,11 +34,15 @@ python -m ipykernel install --user --name=.venv
 Now, you can choose your kernel, .venv, as a Jupyter kernel.
 
 
-# How to set up conda environment using specific python version and .yml file
+# How to set up conda environment using .yml file
 
 ```
 module load anaconda3/2019.10-gcc-9.2.0-qzda
-conda env create python=3.9 -f /path/to/ymls/this.yml
+conda env create -f /path/to/ymls/this.yml
+```
+You can check
+```
+conda env list
 ```
 
 
