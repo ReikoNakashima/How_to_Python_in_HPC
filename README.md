@@ -1,7 +1,7 @@
 # How to set up virtual env
 Load appropriate module. For example, on Delta, I loaded
 ```
-module load medsci/2020.3 conda/nanopore/1.0
+module load medsci/2020.3 conda/nanopore/2.0
 ```
 Check the versions.
 ```
@@ -9,7 +9,7 @@ $ which python
 /gpfs/apps/medsci/stacks/3/condaenv/nanopore/1.0/conda/bin/python
 
 $ python --version
-Python 3.6.10 :: Anaconda, Inc.
+Python 3.6.13 :: Anaconda, Inc.
 ```
 Create an environment, named .venv, in the current directory.
 ```
