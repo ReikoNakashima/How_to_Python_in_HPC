@@ -73,3 +73,11 @@ deactivate my environment
 ```
 conda deactivate
 ```
+
+
+# How to re-install a package
+```
+$ pip uninstall plotly
+$ conda uninstall plotly
+$ conda install -c plotly plotly
+```
