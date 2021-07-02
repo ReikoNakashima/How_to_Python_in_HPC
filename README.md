@@ -50,6 +50,12 @@ You should see the environment /path/to/tool/python_3.9. Then,
 source activate python_3.9
 ```
 
+Then, also install Jupyter kernel
+```
+pip install ipykernel
+python -m ipykernel install --user --name=python_3.9
+```
+
 
 # How to install packages into your own conda environment
 
