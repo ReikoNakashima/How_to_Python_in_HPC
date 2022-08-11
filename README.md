@@ -61,6 +61,7 @@ If you have yaml file, it can be built as
 conda env create --prefix /path/to/tools/env_new --file /path/to/environment.yaml
 ```
 where yaml file looks like this:
+```
 name: epi2melabs-wf-clone-validation
 channels:
     - epi2melabs
@@ -87,7 +88,7 @@ dependencies:
     - pyspoa
     - epi2melabs
     - plannotate==1.2.0
-
+```
 
 If you like to remove a conda environment
 ```
