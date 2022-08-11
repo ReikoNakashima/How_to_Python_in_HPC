@@ -37,7 +37,7 @@ Now, you can choose your kernel, .venv, as a Jupyter kernel.
 # How to set up conda environment
 
 ```
-module load anaconda3/2019.10-gcc-9.2.0-qzda
+module load ml medsci/2022.4 anaconda3/2021.05-gcc-11.2.0-esel
 export CONDA_ENVS_DIRS=/path/to/tool
 conda create -n python_3.10 python=3.10
 ```
@@ -56,10 +56,15 @@ pip install ipykernel
 python -m ipykernel install --user --name=python_3.10
 ```
 
+If you like to remove a conda environment
+```
+conda env remove -n python_3.10
+```
+
 
 # How to install packages into your own conda environment
 
-install packages
+install custom packages
 ```
 export CONDA_ENVS_DIRS=/lustre/workspace/home/nakasr04/condaenvs
 export CONDA_PKGS_DIRS=/lustre/workspace/home/nakasr04/condaenvs
