@@ -39,21 +39,21 @@ Now, you can choose your kernel, .venv, as a Jupyter kernel.
 ```
 module load anaconda3/2019.10-gcc-9.2.0-qzda
 export CONDA_ENVS_DIRS=/path/to/tool
-conda create -n python_3.9 python=3.9
+conda create -n python_3.10 python=3.10
 ```
 You can check
 ```
 conda env list
 ```
-You should see the environment /path/to/tool/python_3.9. Then,
+You should see the environment /path/to/tool/python_3.10. Then,
 ```
-source activate python_3.9
+source activate python_3.10
 ```
 
 Then, also install Jupyter kernel
 ```
 pip install ipykernel
-python -m ipykernel install --user --name=python_3.9
+python -m ipykernel install --user --name=python_3.10
 ```
 
 
