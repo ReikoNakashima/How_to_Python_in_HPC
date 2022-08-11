@@ -56,6 +56,39 @@ pip install ipykernel
 python -m ipykernel install --user --name=python_3.10
 ```
 
+If you have yaml file, it can be built as
+```
+conda env create --prefix /path/to/tools/env_new --file /path/to/environment.yaml
+```
+where yaml file looks like this:
+name: epi2melabs-wf-clone-validation
+channels:
+    - epi2melabs
+    - bioconda
+    - conda-forge
+    - defaults
+dependencies:
+    - python==3.8.*
+    - aplanat==0.5.7
+    - seqkit
+    - scikit-learn
+    - trycycler
+    - porechop
+    - pysam
+    - minimap2
+    - samtools
+    - bedtools
+    - mappy
+    - canu
+    - medaka
+    - fastcat==0.3.6
+    - last
+    - rasusa
+    - pyspoa
+    - epi2melabs
+    - plannotate==1.2.0
+
+
 If you like to remove a conda environment
 ```
 conda env remove -n python_3.10
