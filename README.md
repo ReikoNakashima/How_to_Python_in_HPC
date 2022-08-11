@@ -56,10 +56,14 @@ pip install ipykernel
 python -m ipykernel install --user --name=python_3.10
 ```
 
-If you have yaml file, it can be built as
+If you have yaml file, you should create a conda environment first. And then,
 ```
-conda env create --prefix /path/to/tools/env_new --file /path/to/environment.yaml
+export CONDA_ENVS_DIRS=/path/to/tool/python_3.10
+export CONDA_PKGS_DIRS=/path/to/tool/python_3.10
+source activate python_3.10
+conda env update --file environment.yml
 ```
+
 where yaml file looks like this:
 ```
 name: epi2melabs-wf-clone-validation
