@@ -37,7 +37,7 @@ Now, you can choose your kernel, .venv, as a Jupyter kernel.
 # How to set up conda environment
 
 ```
-module load ml medsci/2022.4 anaconda3/2021.05-gcc-11.2.0-esel
+module load medsci/2022.4 anaconda3/2021.05-gcc-11.2.0-esel
 export CONDA_ENVS_DIRS=/path/to/tool
 conda create -n python_3.10 python=3.10
 ```
